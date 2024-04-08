@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scrapy-workua"
+version = "0.1.0"
+description = ""
+authors = ["Evhenii Podolian <alfan2620@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flake8 = "^7.0.0"
+black = "^24.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
